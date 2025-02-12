@@ -103,8 +103,8 @@ The system calls the tools in the specified order:
 ## **Challenges & Improvements**
 
 ### **Challenges Faced**
-1. **API Rate Limits**: Some services have restrictive API limits, requiring caching and batching requests.
-2. **Inconsistent Data Formats**: Different e-commerce platforms structure data differently.
+1. **Model Computation requirement**: We used the GPT-2 model as it is lightweight consuming only 500 MB of RAM. For very good model such as Mistral-7B-Instruct-v0.1 8 GB VRAM is minimum requirement. 
+2. **API Rate Limits**: Some services have restrictive API limits, requiring caching and batching requests.
 3. **Latency Issues**: Chaining multiple tools may introduce latency.
 
 ### **Potential Improvements**
@@ -117,11 +117,10 @@ The system calls the tools in the specified order:
 ### **Open Questions**
 - How can ATC be further optimized for real-time applications?
 - Can integrating reinforcement learning improve the assistant’s efficiency?
-- What are the best fallback mechanisms when APIs fail?
 
 ### **References**
 1. Schick, T., et al. "Toolformer: Language Models Can Teach Themselves to Use Tools." arXiv preprint (2023).
 2. Yao, S., et al. "ReAct: Synergizing Reasoning and Acting in Language Models." arXiv preprint (2022).
 3. Xie, S., et al. "LATS: Learning to Act and Think Step by Step with Search." arXiv preprint (2023).
 4. Zhou, C., et al. "ATC: Automatic Tool Chain for Multi-Step Reasoning." arXiv preprint (2024).
-5. Renat Aksitov,et al."REST MEETS REACT: SELF-IMPROVEMENT FOR MULTI-STEP REASONING LLM AGENT"arXiv preprint (2023).
+5. Aksitov, R., et al. "REST Meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agents." arXiv preprint (2023).
