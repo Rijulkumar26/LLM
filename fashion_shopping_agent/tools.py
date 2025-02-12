@@ -117,8 +117,8 @@ def compare_prices(query):
 def get_return_policy(query):
     """Mock function to return return policies of e-commerce stores."""
     return_policies = {
-        "Amazon": "Returns within 30 days with free shipping.",
-        "Ebay": "Returns within 15 days, shipping fee applicable.",
+        "Amazon": "Returns within 15 days with free shipping.",
+        "Ebay": "Returns within 30 days, shipping fee applicable.",
         "Walmart": "No returns allowed on discounted items.",
     }
     return {"return_policy": random.choice(list(return_policies.values()))}
