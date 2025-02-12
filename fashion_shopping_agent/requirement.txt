@@ -1,0 +1,10 @@
+torch
+transformers
+tf-keras
+requests
+flask
+beautifulsoup4
+selenium
+chromedriver-autoinstaller
+openai
+safetensors
