@@ -98,7 +98,13 @@ The system calls the tools in the specified order:
 - The system aggregates the results from the tools into a structured JSON response.  
 
 ##### **5. Final Output**
-- The system displays the final response to the user in a user-friendly format.  
+- The system displays the final response to the user in a user-friendly format.
+
+#### **Installation Steps**:
+1. Create a python environment [python3.10 -m venv env10_fashion]
+2. Activate the environment [source env10_fashion/bin/activate]
+2. Install all python dependenies from requirement.txt [pip install -r requirement.txt]
+3. run the run.py [python3 run.py]
 
 ## **Challenges & Improvements**
 
